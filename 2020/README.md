@@ -6,11 +6,12 @@
 
 Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 
-| Day | Puzzle                                                                         | Input                                                                            | Solution                                                           | Tag                                                        |
-| --- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------- |
-| 1   | [Report Repair](https://github.com/mukundv/aoc/blob/master/day1/day1.md)       | [day1_input.txt](https://github.com/mukundv/aoc/blob/master/day1/day1_input.txt) | [day1.py](https://github.com/mukundv/aoc/blob/master/day1/day1.py) | [day01](https://github.com/mukundv/aoc/releases/tag/day01) |
-| 2   | [Password Philosophy](https://github.com/mukundv/aoc/blob/master/day2/day2.md) | [day2_input.txt](https://github.com/mukundv/aoc/blob/master/day2/day2_input.txt) | [day2.py](https://github.com/mukundv/aoc/blob/master/day2/day2.py) | [day02](https://github.com/mukundv/aoc/releases/tag/day02) |
-| 3   | [Toboggan Trajectory](https://github.com/mukundv/aoc/blob/master/day3/day3.md) | [day3_input.txt](https://github.com/mukundv/aoc/blob/master/day3/day3_input.txt) | [day3.py](https://github.com/mukundv/aoc/blob/master/day3/day3.py) | [day03](https://github.com/mukundv/aoc/releases/tag/day03) |
+| Day | Puzzle                                                                         | Input                                                                                 | Solution                                                                | Tag                                                       |
+| --- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------- |
+| 01  | [Report Repair](https://github.com/mukundv/aoc/blob/main/day01/day01.md)       | [day1_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day01/day01_input.txt) | [day1.py](https://github.com/mukundv/aoc/blob/main/2020/day01/day01.py) | [day1](https://github.com/mukundv/aoc/releases/tag/day01) |
+| 02  | [Password Philosophy](https://github.com/mukundv/aoc/blob/main/day02/day02.md) | [day2_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day02/day02_input.txt) | [day2.py](https://github.com/mukundv/aoc/blob/main/2020/day02/day02.py) | [day2](https://github.com/mukundv/aoc/releases/tag/day02) |
+| 03  | [Toboggan Trajectory](https://github.com/mukundv/aoc/blob/main/day03/day03.md) | [day3_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day03/day03_input.txt) | [day3.py](https://github.com/mukundv/aoc/blob/main/2020/day03/day03.py) | [day3](https://github.com/mukundv/aoc/releases/tag/day03) |
+| 04  | [Passport Processing](https://github.com/mukundv/aoc/blob/main/day04/day04.md) | [day4_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day04/day04_input.txt) | [day4.py](https://github.com/mukundv/aoc/blob/main/2020/day04/day04.py) | [day4](https://github.com/mukundv/aoc/releases/tag/day04) |
 
-This document was automatically rendered on 26-12-2021 16:09:07
+This document was automatically rendered on 27-12-2021 08:43:19
 using [SnakeMD](https://github.com/TheRenegadeCoder/SnakeMD)
