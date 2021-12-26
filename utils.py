@@ -102,9 +102,9 @@ def get_table_body(year, upto, directory):
             puzzle = snakemd.InlineText(name, url=f"{base_url}blob/main/{year}/day{a}/day{a}.md")
         else:
             puzzle = snakemd.InlineText(fetch_puzzle_name(year, i), url=f"{base_url}blob/main/day{a}/day{a}.md")
-        aoc_input = snakemd.InlineText(f"day{i}_input.txt", url=f"{base_url}blob/main/{year}/day{a}/day{a}_input.txt")
-        solution = snakemd.InlineText(f"day{i}.py", url=f"{base_url}blob/main/{year}/day{a}/day{a}.py")
-        tag = snakemd.InlineText(f"day{i}", url=f"{base_url}releases/tag/day{a}")
+        aoc_input = snakemd.InlineText(f"day{a}_input.txt", url=f"{base_url}blob/main/{year}/day{a}/day{a}_input.txt")
+        solution = snakemd.InlineText(f"day{a}.py", url=f"{base_url}blob/main/{year}/day{a}/day{a}.py")
+        tag = snakemd.InlineText(f"day{a}", url=f"{base_url}releases/tag/day{a}")
         body.append([a, puzzle, aoc_input, solution, tag])
     return body
 
