@@ -17,22 +17,32 @@ def get_session() -> str:
 def run(data: str = None, part: int = None):
     if not data:
         if part == 1:
-            return part1(get_data(get_session(), day=day, year=year).splitlines())
+            return part1(get_data(get_session(), day=day, year=year).split('\n\n'))
         else:
-            return part2(get_data(get_session(), day=day, year=year).splitlines())
+            return part2(get_data(get_session(), day=day, year=year).split('\n\n'))
     else:
         if part == 1:
-            return part1(data.splitlines())
+            return part1(data.split('\n\n'))
         else:
-            return part2(data.splitlines())
+            return part2(data.split('\n\n'))
 
 
 def part1(data):
-    return data
+    count = 0
+    for line in data:
+        count += len(set(line) - {' ', '\n'})
+    return count
 
 
 def part2(data):
-    return data
+    count = 0
+    for group in data:
+        line = group.splitlines()
+        counted = set(line[0])
+        for not_counted in line[1:]:
+            counted &= set(not_counted)
+        count += len(counted)
+    return count
 
 
 if __name__ == '__main__':
