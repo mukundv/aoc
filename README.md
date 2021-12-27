@@ -4,8 +4,8 @@
 
 ## 2020
 
-![stars](https://img.shields.io/badge/stars%20-8-yellow)
-![days](https://img.shields.io/badge/days%20completed-4-red)
+![stars](https://img.shields.io/badge/stars%20-10-yellow)
+![days](https://img.shields.io/badge/days%20completed-5-red)
 
 | Day | Puzzle                                                                         | Input                                                                                  | Solution                                                                 | Tag                                                        |
 | --- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------- |
@@ -13,6 +13,7 @@
 | 02  | [Password Philosophy](https://github.com/mukundv/aoc/blob/main/day02/day02.md) | [day02_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day02/day02_input.txt) | [day02.py](https://github.com/mukundv/aoc/blob/main/2020/day02/day02.py) | [day02](https://github.com/mukundv/aoc/releases/tag/day02) |
 | 03  | [Toboggan Trajectory](https://github.com/mukundv/aoc/blob/main/day03/day03.md) | [day03_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day03/day03_input.txt) | [day03.py](https://github.com/mukundv/aoc/blob/main/2020/day03/day03.py) | [day03](https://github.com/mukundv/aoc/releases/tag/day03) |
 | 04  | [Passport Processing](https://github.com/mukundv/aoc/blob/main/day04/day04.md) | [day04_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day04/day04_input.txt) | [day04.py](https://github.com/mukundv/aoc/blob/main/2020/day04/day04.py) | [day04](https://github.com/mukundv/aoc/releases/tag/day04) |
+| 05  | [Binary Boarding](https://github.com/mukundv/aoc/blob/main/day05/day05.md)     | [day05_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day05/day05_input.txt) | [day05.py](https://github.com/mukundv/aoc/blob/main/2020/day05/day05.py) | [day05](https://github.com/mukundv/aoc/releases/tag/day05) |
 
 ## 2021
 
