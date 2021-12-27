@@ -104,8 +104,7 @@ def get_table_body(year, upto, directory):
             puzzle = snakemd.InlineText(fetch_puzzle_name(year, i), url=f"{base_url}blob/main/day{a}/day{a}.md")
         aoc_input = snakemd.InlineText(f"day{a}_input.txt", url=f"{base_url}blob/main/{year}/day{a}/day{a}_input.txt")
         solution = snakemd.InlineText(f"day{a}.py", url=f"{base_url}blob/main/{year}/day{a}/day{a}.py")
-        tag = snakemd.InlineText(f"day{a}", url=f"{base_url}releases/tag/day{a}")
-        body.append([a, puzzle, aoc_input, solution, tag])
+        body.append([a, puzzle, aoc_input, solution])
     return body
 
 
@@ -120,7 +119,7 @@ def generate_readme(name, year, day, directory):
             [snakemd.InlineText("days", url="https://img.shields.io/badge/days%20completed-21-red", image=True)]))
     readme.add_paragraph(f"Fun with Python :snake: - aoc {year}") \
         .insert_link(f"aoc {year}", f"https://adventofcode.com/{year}")
-    header = ["Day", "Puzzle", "Input", "Solution", "Tag"]
+    header = ["Day", "Puzzle", "Input", "Solution"]
     readme.add_element(snakemd.Table(header=header, body=get_table_body(year, day, directory)))
     now = datetime.today().strftime('%d-%m-%Y %H:%M:%S')
     readme.add_paragraph(f"This document was automatically rendered on {now} using SnakeMD") \
