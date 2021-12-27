@@ -15,6 +15,7 @@
 | 04  | [Passport Processing](https://github.com/mukundv/aoc/blob/main/day04/day04.md) | [day04_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day04/day04_input.txt) | [day04.py](https://github.com/mukundv/aoc/blob/main/2020/day04/day04.py) | [day04](https://github.com/mukundv/aoc/releases/tag/day04) |
 | 05  | [Binary Boarding](https://github.com/mukundv/aoc/blob/main/day05/day05.md)     | [day05_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day05/day05_input.txt) | [day05.py](https://github.com/mukundv/aoc/blob/main/2020/day05/day05.py) | [day05](https://github.com/mukundv/aoc/releases/tag/day05) |
 | 06  | [Custom Customs](https://github.com/mukundv/aoc/blob/main/day06/day06.md)      | [day06_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day06/day06_input.txt) | [day06.py](https://github.com/mukundv/aoc/blob/main/2020/day06/day06.py) | [day06](https://github.com/mukundv/aoc/releases/tag/day06) |
+| 07  | [Handy Haversacks](https://github.com/mukundv/aoc/blob/main/day07/day07.md)    | [day07_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day07/day07_input.txt) | [day07.py](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.py) |
 
 ## 2021
 
