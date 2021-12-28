@@ -1,8 +1,6 @@
 # AOC 2020
 
-![stars](https://img.shields.io/badge/stars%20-42-yellow)
-
-![days](https://img.shields.io/badge/days%20completed-21-red)
+![stars](https://img.shields.io/badge/stars%20-14-yellow) ![stars](https://img.shields.io/badge/days%20completed-7-red)
 
 Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 
@@ -14,6 +12,7 @@ Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 | 04  | [Passport Processing](https://github.com/mukundv/aoc/blob/main/day04/day04.md) | [day04_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day04/day04_input.txt) | [day04.py](https://github.com/mukundv/aoc/blob/main/2020/day04/day04.py) |
 | 05  | [Binary Boarding](https://github.com/mukundv/aoc/blob/main/day05/day05.md)     | [day05_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day05/day05_input.txt) | [day05.py](https://github.com/mukundv/aoc/blob/main/2020/day05/day05.py) |
 | 06  | [Custom Customs](https://github.com/mukundv/aoc/blob/main/day06/day06.md)      | [day06_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day06/day06_input.txt) | [day06.py](https://github.com/mukundv/aoc/blob/main/2020/day06/day06.py) |
+| 07  | [Handy Haversacks](https://github.com/mukundv/aoc/blob/main/day07/day07.md)    | [day07_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day07/day07_input.txt) | [day07.py](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.py) |
 
-This document was automatically rendered on 28-12-2021 07:50:56
+This document was automatically rendered on 28-12-2021 17:49:03
 using [SnakeMD](https://github.com/TheRenegadeCoder/SnakeMD)

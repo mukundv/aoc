@@ -1,5 +1,6 @@
 import cProfile
 import io
+import json
 import os
 import pstats
 import shutil
@@ -53,7 +54,7 @@ def profile(func):
     return wrapper
 
 
-## Markdown generator functions
+# Markdown generator functions
 load_dotenv()
 CURRENT_DIR = os.getcwd()
 SESSION_COOKIE = os.getenv('SESSION_COOKIE')
@@ -108,15 +109,41 @@ def get_table_body(year, upto, directory):
     return body
 
 
+def get_stars_days(year, userid):
+    leaderboard = f'https://adventofcode.com/{year}/leaderboard/private/view/{userid}.json'
+    print('Fetching leaderboard data from : ' + leaderboard)
+    r = requests.get(leaderboard, headers=HEADERS)
+    if r.status_code != 200:
+        print(f'Leaderboard API returned status code {r.status_code}: {r.text}')
+        exit(1)
+    data = json.loads(r.text)
+    stars = data['members'][userid]['stars']
+    days_completed = 0
+    for day in data['members'][userid]['completion_day_level']:
+        if '2' in data['members'][userid]['completion_day_level'][day]:
+            days_completed += 1
+
+    print(f'Stars: {stars}')
+    print(f'Days completed: {days_completed}')
+    return stars, days_completed
+
+
+def get_patches(year):
+    stars, days_completed = get_stars_days(year, '1681351')
+    star_url = f"https://img.shields.io/badge/stars%20-{stars}-yellow"
+    days_completed_url = f"https://img.shields.io/badge/days%20completed-{days_completed}-red"
+    stars_patch = snakemd.InlineText("stars", url=star_url, image=True)
+    days_completed_patch = snakemd.InlineText("stars", url=days_completed_url, image=True)
+    return stars_patch, days_completed_patch
+
+
 def generate_readme(name, year, day, directory):
     readme = snakemd.Document(name)
     readme.add_header(f"AOC {year}")
+    stars, days = get_patches(year)
     readme.add_element(
-        snakemd.Paragraph(
-            [snakemd.InlineText("stars", url="https://img.shields.io/badge/stars%20-42-yellow", image=True)]))
-    readme.add_element(
-        snakemd.Paragraph(
-            [snakemd.InlineText("days", url="https://img.shields.io/badge/days%20completed-21-red", image=True)]))
+        snakemd.Paragraph([stars, " ", days])
+    )
     readme.add_paragraph(f"Fun with Python :snake: - aoc {year}") \
         .insert_link(f"aoc {year}", f"https://adventofcode.com/{year}")
     header = ["Day", "Puzzle", "Input", "Solution"]
