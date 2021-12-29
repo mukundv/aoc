@@ -73,15 +73,22 @@ def read_readme(directory, year):
             a = soup.findAll('a')
             i = 1
             for row in (a[1:]):
-                if 'md' in str(row):
+                if 'md' not in str(row):
+                    continue
+                else:
                     title = row.text
                     readme_table[year, i] = title
-                    i += 1
+                i += 1
         return readme_table
 
 
 def get_puzzle_name(directory, year, day):
-    return read_readme(directory, year).get((str(year), day))
+    table = read_readme(directory, year)
+    if (year, day) in table:
+        name = table[(year, day)]
+    else:
+        name = fetch_puzzle_name(year, day)
+    return name
 
 
 def fetch_puzzle_name(year, day):
