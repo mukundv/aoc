@@ -1,6 +1,6 @@
 # AOC 2020
 
-![stars](https://img.shields.io/badge/stars%20-16-yellow) ![stars](https://img.shields.io/badge/days%20completed-8-red)
+![stars](https://img.shields.io/badge/stars%20-18-yellow) ![stars](https://img.shields.io/badge/days%20completed-9-red)
 
 Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 
@@ -14,6 +14,7 @@ Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 | 06  | [Custom Customs](https://github.com/mukundv/aoc/blob/main/2020/day06/day06.md)      | [day06_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day06/day06_input.txt) | [day06.py](https://github.com/mukundv/aoc/blob/main/2020/day06/day06.py) |
 | 07  | [Handy Haversacks](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.md)    | [day07_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day07/day07_input.txt) | [day07.py](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.py) |
 | 08  | [Handheld Halting](https://github.com/mukundv/aoc/blob/main/2020/day08/day08.md)    | [day08_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day08/day08_input.txt) | [day08.py](https://github.com/mukundv/aoc/blob/main/2020/day08/day08.py) |
+| 09  | [Encoding Error](https://github.com/mukundv/aoc/blob/main/2020/day09/day09.md)      | [day09_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day09/day09_input.txt) | [day09.py](https://github.com/mukundv/aoc/blob/main/2020/day09/day09.py) |
 
-This document was automatically rendered on 30-12-2021 09:30:18
+This document was automatically rendered on 30-12-2021 09:42:23
 using [SnakeMD](https://github.com/TheRenegadeCoder/SnakeMD)
