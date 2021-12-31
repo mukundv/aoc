@@ -1,11 +1,11 @@
 # AOC 2020
 
-![stars](https://img.shields.io/badge/stars%20-18-yellow) ![stars](https://img.shields.io/badge/days%20completed-9-red)
+![stars](https://img.shields.io/badge/stars%20-20-yellow) ![stars](https://img.shields.io/badge/days%20completed-10-red)
 
 Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 
 | Day | Puzzle                                                                              | Input                                                                                  | Solution                                                                 |
-| --- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+|-----|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | 01  | [Report Repair](https://github.com/mukundv/aoc/blob/main/2020/day01/day01.md)       | [day01_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day01/day01_input.txt) | [day01.py](https://github.com/mukundv/aoc/blob/main/2020/day01/day01.py) |
 | 02  | [Password Philosophy](https://github.com/mukundv/aoc/blob/main/2020/day02/day02.md) | [day02_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day02/day02_input.txt) | [day02.py](https://github.com/mukundv/aoc/blob/main/2020/day02/day02.py) |
 | 03  | [Toboggan Trajectory](https://github.com/mukundv/aoc/blob/main/2020/day03/day03.md) | [day03_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day03/day03_input.txt) | [day03.py](https://github.com/mukundv/aoc/blob/main/2020/day03/day03.py) |
@@ -15,6 +15,7 @@ Fun with Python :snake: - [aoc 2020](https://adventofcode.com/2020)
 | 07  | [Handy Haversacks](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.md)    | [day07_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day07/day07_input.txt) | [day07.py](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.py) |
 | 08  | [Handheld Halting](https://github.com/mukundv/aoc/blob/main/2020/day08/day08.md)    | [day08_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day08/day08_input.txt) | [day08.py](https://github.com/mukundv/aoc/blob/main/2020/day08/day08.py) |
 | 09  | [Encoding Error](https://github.com/mukundv/aoc/blob/main/2020/day09/day09.md)      | [day09_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day09/day09_input.txt) | [day09.py](https://github.com/mukundv/aoc/blob/main/2020/day09/day09.py) |
+| 10  | [Adapter Array](https://github.com/mukundv/aoc/blob/main/2020/day10/day10.md)       | [day10_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day10/day10_input.txt) | [day10.py](https://github.com/mukundv/aoc/blob/main/2020/day10/day10.py) |
 
-This document was automatically rendered on 30-12-2021 09:42:23
+This document was automatically rendered on 31-12-2021 18:43:16
 using [SnakeMD](https://github.com/TheRenegadeCoder/SnakeMD)

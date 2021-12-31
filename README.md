@@ -4,11 +4,11 @@
 
 ## 2020
 
-![stars](https://img.shields.io/badge/stars%20-18-yellow)
-![days](https://img.shields.io/badge/days%20completed-9-red)
+![stars](https://img.shields.io/badge/stars%20-20-yellow)
+![days](https://img.shields.io/badge/days%20completed-10-red)
 
 | Day | Puzzle                                                                              | Input                                                                                  | Solution                                                                 |
-| --- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+|-----|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | 01  | [Report Repair](https://github.com/mukundv/aoc/blob/main/2020/day01/day01.md)       | [day01_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day01/day01_input.txt) | [day01.py](https://github.com/mukundv/aoc/blob/main/2020/day01/day01.py) |
 | 02  | [Password Philosophy](https://github.com/mukundv/aoc/blob/main/2020/day02/day02.md) | [day02_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day02/day02_input.txt) | [day02.py](https://github.com/mukundv/aoc/blob/main/2020/day02/day02.py) |
 | 03  | [Toboggan Trajectory](https://github.com/mukundv/aoc/blob/main/2020/day03/day03.md) | [day03_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day03/day03_input.txt) | [day03.py](https://github.com/mukundv/aoc/blob/main/2020/day03/day03.py) |
@@ -18,6 +18,7 @@
 | 07  | [Handy Haversacks](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.md)    | [day07_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day07/day07_input.txt) | [day07.py](https://github.com/mukundv/aoc/blob/main/2020/day07/day07.py) |
 | 08  | [Handheld Halting](https://github.com/mukundv/aoc/blob/main/2020/day08/day08.md)    | [day08_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day08/day08_input.txt) | [day08.py](https://github.com/mukundv/aoc/blob/main/2020/day08/day08.py) |
 | 09  | [Encoding Error](https://github.com/mukundv/aoc/blob/main/2020/day09/day09.md)      | [day09_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day09/day09_input.txt) | [day09.py](https://github.com/mukundv/aoc/blob/main/2020/day09/day09.py) |
+| 10  | [Adapter Array](https://github.com/mukundv/aoc/blob/main/2020/day10/day10.md)       | [day10_input.txt](https://github.com/mukundv/aoc/blob/main/2020/day10/day10_input.txt) | [day10.py](https://github.com/mukundv/aoc/blob/main/2020/day10/day10.py) |
 
 ## 2021
 
@@ -25,7 +26,7 @@
 ![days](https://img.shields.io/badge/days%20completed-25-red)
 
 | Day | Puzzle                                                                                   | Input                                                                                   | Solution                                                                  | Tag                                                            |
-| --- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
+|-----|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------|
 | 1   | [Sonar Sweep](https://github.com/mukundv/AOC2021/blob/master/day1/day1.md)               | [day1_input.txt](https://github.com/mukundv/AOC2021/blob/master/day1/day1_input.txt)    | [day1.py](https://github.com/mukundv/AOC2021/blob/master/day1/day1.py)    | [day1](https://github.com/mukundv/AOC2021/releases/tag/day1)   |
 | 2   | [Dive!](https://github.com/mukundv/AOC2021/blob/master/day2/day2.md)                     | [day2_input.txt](https://github.com/mukundv/AOC2021/blob/master/day2/day2_input.txt)    | [day2.py](https://github.com/mukundv/AOC2021/blob/master/day2/day2.py)    | [day2](https://github.com/mukundv/AOC2021/releases/tag/day2)   |
 | 3   | [Binary Diagnostic](https://github.com/mukundv/AOC2021/blob/master/day3/day3.md)         | [day3_input.txt](https://github.com/mukundv/AOC2021/blob/master/day3/day3_input.txt)    | [day3.py](https://github.com/mukundv/AOC2021/blob/master/day3/day3.py)    | [day3](https://github.com/mukundv/AOC2021/releases/tag/day3)   |
