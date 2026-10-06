@@ -46,7 +46,7 @@ termcolor==1.1.0
 toml==0.10.2
 tzdata==2021.5
 tzlocal==4.1
-urllib3==1.26.7
+urllib3==2.8.0
 wrapt==1.13.3
 zipp==3.7.0
 
